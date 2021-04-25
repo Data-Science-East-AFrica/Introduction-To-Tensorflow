@@ -30,4 +30,27 @@ A user can pick up any mechanism to install TensorFlow in the system. We recomme
 
 We encourage you to install  Anaconda framework in our system. 
 
-![tensorflow](images/install_anaconda.jpg)
+![tensorflow](images/install_anaconda.jpg) 
+
+After successfully nstalling Anaconda run the following commmands  to install Tensorflow.  **Make sure anaconda environment, base, is activated before running the command below.**
+
+```
+pip install tensorflow 
+
+or 
+
+conda install tensorflow 
+
+``` 
+
+After successful installation, it is important to know the sample program execution of TensorFlow.
+
+Following example helps us understand the basic program creation “Hello World” in TensorFlow.
+
+```
+>> import tensorflow as tf
+>> hello = tf.constant(‘Hello, Tensorflow!’)
+>> sess = tf.Session()
+>> print(sess.run(hello)) 
+
+```
