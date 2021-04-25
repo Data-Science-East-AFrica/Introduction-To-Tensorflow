@@ -34,7 +34,7 @@ We encourage you to install  Anaconda framework in our system.
 
 After successfully nstalling Anaconda run the following commmands  to install Tensorflow.  **Make sure anaconda environment, base, is activated before running the command below.**
 
-```
+```python
 pip install tensorflow 
 
 or 
@@ -47,7 +47,7 @@ After successful installation, it is important to know the sample program execut
 
 Following example helps us understand the basic program creation “Hello World” in TensorFlow.
 
-```
+```python
 >> import tensorflow as tf
 >> hello = tf.constant(‘Hello, Tensorflow!’)
 >> sess = tf.Session()
