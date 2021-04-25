@@ -53,4 +53,18 @@ Following example helps us understand the basic program creation “Hello World�
 >> sess = tf.Session()
 >> print(sess.run(hello)) 
 
-```
+``` 
+
+
+### **Week 1:** Introduction to TensorFlow.
+
+ In this week, you’ll learn how to define constants and variables, perform tensor addition and multiplication, and compute derivatives.
+
+ Knowledge of linear algebra will be helpful, but not necessary.
+
+Learning materials and folder.
+
+### **week 2:** Linear models.
+
+In this chapter, you will learn how to build, solve, and make predictions with models in TensorFlow 2. You will focus on a simple class of models – the linear regression model – and will try to predict housing prices. By the end of the chapter, you will know how to load and manipulate data, construct loss functions, perform minimization, make predictions, and reduce resource use with batch training.
+View chapter details
